@@ -1,0 +1,42 @@
+{
+    "add.choose": "Choose...",
+    "Statut.A faire": "To do",
+    "Statut.En cours": "In progress",
+    "Statut.Termines": "Finished",
+
+    "Priority.Haute": "high",
+    "Priority.Moyenne": "Average",
+    "Priority.Faible": "Low",
+
+    "Setting.settings": "Settings",
+    "Setting.modif": "Modify the profile",
+    "Setting.name": "Name",
+    "Setting.mail": "Email",
+    "Setting.edit": "Change",
+
+    "Setting.modifpass": "Change the password",
+    "Setting.lastpass": "Current password",
+    "Setting.newpass": "New password",
+    "Setting.confpass": "Confirm",
+    "Setting.butpass": "Change the password",
+
+    "Setting.language": "Choose language",
+    
+    "login.create":"Create your account",
+    "login.name": "Name",
+    "login.mdp": "Password",
+    "login.confmdp": "Confirm Password",
+    "login.validate": "validate",
+    "login.errorReg": "REGISTRATION ERROR!",
+    "login.succesReg": "Add successfully!",
+    "login.log": "Log!",
+    "login.seco": "Sign in",
+    "login.error": "Invalid email or password.",
+    "login.return": "Return!",
+    "login.text": "Sign up to better manage your tasks.",
+    "login.welcome": "You're welcome!",
+    "login.othertext":"Log in and start writing your tasks.",
+    "login.register": "To register"
+}
+
+

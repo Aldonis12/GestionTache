@@ -1,0 +1,20 @@
+To do list :
+1 - Back End : function for 
+    - Login OK
+    - Sign in OK
+    - add task OK
+    - List task OK
+    - add subtask OK
+    - List subtask OK
+
+2 - Front End
+    - One page for : Login and sign in OK
+    - Page :  add Task 
+    - Page : List task
+    - Page : Onclick sur task -> List des subtask + button add
+    - Page : Onclick on subtask -> Detail + update and Delete
+
+    NB : one page.blade for each : ADD , LIST , UPDATE and DELETE
+
+
+NEW TASK : 

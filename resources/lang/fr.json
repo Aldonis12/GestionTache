@@ -1,0 +1,40 @@
+{
+    "add.choose": "Choisir...",
+    "Statut.A faire": "À faire",
+    "Statut.En cours": "En cours",
+    "Statut.Termines": "Terminés",
+
+    "Priority.Haute": "Haute",
+    "Priority.Moyenne": "Moyenne",
+    "Priority.Faible": "Faible",
+
+    "Setting.settings": "Paramètre",
+    "Setting.modif": "Modifier le profil",
+    "Setting.name": "Nom",
+    "Setting.mail": "Email",
+    "Setting.edit": "Modifier",
+
+    "Setting.modifpass": "Modifier le mot de passe",
+    "Setting.lastpass": "Mot de passe actuel",
+    "Setting.newpass": "Nouveau mot de passe",
+    "Setting.confpass": "Confirmation",
+    "Setting.butpass": "Modifier le mot de passe",
+
+    "Setting.language": "Choisir la langue",
+
+    "login.create":"créez votre compte",
+    "login.name": "Nom",
+    "login.mdp": "Mot de passe",
+    "login.confmdp": "Confirmer le mot de passe",
+    "login.validate": "Valider",
+    "login.errorReg": "ERREUR D'INSCRIPTION!",
+    "login.succesReg": "Ajouter avec succès!",
+    "login.log": "Connectez-vous!",
+    "login.seco": "Se connecter",
+    "login.error": "Email ou mot de passe invalide.",
+    "login.return": "Revenir!",
+    "login.text": "Inscrivez-vous pour mieux gérer vos tâches.",
+    "login.welcome": "Vous êtes la bienvenue!",
+    "login.othertext": "Connectez-vous et commencer à écrire vos tâches.",
+    "login.register": "S'inscrire"
+}

@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #e3f2fd;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.logo .menu-icon{
+    color: #333;
+    font-size: 24px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.logo .logo-name{
+    color: #333;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+nav .sidebar{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 260px;
+    padding: 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 0.4s ease;
+}
+
+nav.open .sidebar{
+    left: 0;
+}
+
+.sidebar .sidebar-content{
+    display: flex;
+    height: 100%;
+
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 16px;
+}
+
+.sidebar-content .list{
+    list-style: none;
+}
+
+.list .nav-link{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 14px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.lists .nav-link:hover{
+    background-color: #4070f4;
+}
+
+.nav-link .icon{
+    margin-right: 14px;
+    font-size: 20px;
+    color: #707070;
+}
+
+.nav-link .link{
+    font-size: 16px;
+    color: #707070;
+    font-weight: 400;
+}
+
+.lists .nav-link:hover .icon,
+.lists .nav-link:hover .link
+{
+    color: #fff;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 1000vh;
+    width: 200%;
+    opacity: 0;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+}
+
+nav.open ~ .overlay{
+    opacity: 0;
+    pointer-events: auto;
+    left: 260px;
+}
+
+
+.particles-js {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(80, 5, 5, 0.7), rgba(222, 9, 9, 0.7));
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22);
+    overflow: hidden;
+    width: 900px;
+    max-width: 100%;
+    min-height: 600px;
+    margin-left: center;
+    margin-right: center;
+    align-self: flex-start;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	transition: all 0.6s ease-in-out;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #fff #eee;
+}
+
+.form-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.form-container::-webkit-scrollbar-thumb {
+    background-color: #fff;
+}
+
+.form-container::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 200%;
+}
+
+select {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 200%;
+}
+
+#myForm {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 300px;
+	height: 100%;
+	text-align: center;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #662628;
+	background-color: #662628;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+h1 {
+	font-weight: bold;
+	margin: 0;
+    text-align: center;
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 50px;
+    border: 1.6px solid black;
+}
+
+th, td {
+    width: 100px;
+    padding: 20px;
+    border: 1px solid #eee;
+    font-size: 16px;
+    border: 0.5px solid black;
+}
+
+.colored-column {
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.colored-column:hover {
+    background-color: #f0ede0;
+}
+
+
+.input-with-button-container {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-left: 50px;
+    
+}
+
+.input-with-button-container input[type="text"],
+.input-with-button-container select {
+    width: 300px;
+    height: 30px;
+    margin-right: 10px;  
+    margin: 0;
+    padding: 0;
+}
+
+.input-with-button-container button {
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-wrapper {
+    width: 80%; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-wrapper input[type="text"],
+.form-wrapper select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-wrapper button {
+    width: auto;
+    padding: 5px 15px;
+    font-size: 14px; 
+    float: right;
+}
+
+
+.custom-form-wrapper {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    margin-right: 25px;
+}
+
+.custom-form-wrapper h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.custom-form-wrapper p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.custom-form-wrapper p input[type="text"],
+.custom-form-wrapper p input[type="date"],
+.custom-form-wrapper p select {
+    display: inline-block;
+    width: 40%;
+    padding: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.delete-button {
+    background-color: #d72f2f;
+    border-radius: 20px;
+	border: 1px solid #d72f2f;
+	background-color: #d72f2f;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.delete-button:hover {
+    background-color: #d72f2f;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#toggleFormButton {
+    background-color: #821e00; /* Couleur de fond */
+    color: #FFFFFF; /* Couleur du texte */
+    padding: 12px 24px; /* Espacement intérieur pour la taille */
+    border: none; /* Pas de bordure */
+    cursor: pointer; /* Curseur de type pointer */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    font-weight: bold; /* Gras */
+    text-transform: uppercase; /* Texte en majuscules */
+    transition: background-color 0.2s ease; /* Transition de couleur de fond */
+}
+
+/* Style au survol du bouton */
+#toggleFormButton:hover {
+    background-color: #7a280f; /* Couleur de fond au survol */
+}
+
+
+.changement-couleur {
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .changement-couleur:hover {
+    color: rgb(149, 149, 241);
+  }
+
+
+  .transparent-button {
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: #333;
+    padding: 10px 20px;
+    transition: color 0.3s ease; /* Utilisation de la transition sur la couleur du texte */
+    cursor: pointer;
+  }
+  
+  .transparent-button:hover {
+    color: #4c8cd4; /* Cette ligne change uniquement la couleur du texte au survol */
+  }
+  
+  
