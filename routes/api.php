@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ApiController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('/apilogin', [ApiController::class, 'Login']);
+Route::get('/apitache', [ApiController::class, 'ListeTache']);
+Route::get('/apidetailstache/{id}', [ApiController::class, 'DetailsTache']);
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+

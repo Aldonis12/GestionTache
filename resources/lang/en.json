@@ -24,6 +24,7 @@
     
     "login.create":"Create your account",
     "login.name": "Name",
+    "login.email": "Email",
     "login.mdp": "Password",
     "login.confmdp": "Confirm Password",
     "login.validate": "validate",

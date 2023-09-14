@@ -31,7 +31,7 @@
                     <select name="priority">
                         <option>{{ trans('add.choose') }}</option>
                         @foreach ($priorities as $priority)
-                            <option value="{{ $priority->id }}"> - {{ $priority->nom }}</option>
+                            <option value="{{ $priority->id }}"> - {{ trans('Priority.' . $priority->nom) }}</option>
                         @endforeach
                     </select>
                     <p>{{ trans('add.deadline') }} :</p>

@@ -26,7 +26,7 @@
                 <br>
                 <br>
                 <input required type="text" placeholder="{{ trans('login.name')}}" name="nom" />
-                <input required type="email" placeholder="Email" id="email" name="mail" />
+                <input required type="email" placeholder="{{ trans('login.email')}}" id="email" name="mail" />
                 <span id="email-error" style="color: red;"></span>
                 <input required type="password" id="password" placeholder="{{ trans('login.mdp')}}" name="mdp"
                     minlength="6" />
@@ -54,7 +54,7 @@
                 <h1>{{ trans('login.log')}}</h1>
                 <br>
                 <br>
-                <input required type="email" placeholder="Email" name="mail" />
+                <input required type="email" placeholder="{{ trans('login.email')}}" name="mail" />
                 <input required type="password" placeholder="{{ trans('login.mdp')}}" name="mdp" />
                 <br>
                 <button type="submit">{{ trans('login.seco')}}</button>
@@ -67,7 +67,7 @@
                     <script>
                         document.write(new Date().getFullYear())
                     </script> - Aldonis <br>
-                    <a href="/ChangeLanguage?language=fr">FR</a> / <a href="/ChangeLanguage?language=en">EN</a>
+                    <a href="/ChangeLanguage?language=fr">FR</a> / <a href="/ChangeLanguage?language=en">EN</a> / <a href="/ChangeLanguage?language=esp">ESP</a>
                 </p>
             </form>
         </div>

@@ -38,7 +38,7 @@ emailInput.addEventListener('blur', async () => {
     const data = await response.json();
 
     if (data.exists) {
-        emailError.textContent = 'Cet email existe déjà !';
+        emailError.textContent = "existemail";
         buttonBe.disabled = true;
     } else {
         emailError.textContent = '';

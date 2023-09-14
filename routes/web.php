@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AddController;
+use App\Http\Controllers\ApiController;
 use App\Http\Controllers\AuthentificationController;
 use App\Http\Controllers\DeleteController;
 use App\Http\Controllers\ListController;
@@ -72,7 +73,10 @@ Route::get('/checkPasswordForUpdate', [UpdateController::class,'checkPasswordFor
 
 Route::post('/ModifierUtilisateurMDP', [UpdateController::class, 'ModifierUtilisateurMDP']);
 
+Route::get('/sendWelcomeEmail', [AuthentificationController::class,'sendEmail']);
 
+
+Route::get('/apitache', [ApiController::class, 'ListeTache']);
 
 
 

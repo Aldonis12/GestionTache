@@ -265,6 +265,7 @@
                 <select name="language" id="language" onchange="this.form.submit()" style="font-size: 12px; width: 50%;">
                     <option value="en" {{ app()->getLocale() == 'en' ? 'selected' : '' }}>English</option>
                     <option value="fr" {{ app()->getLocale() == 'fr' ? 'selected' : '' }}>Français</option>
+                    <option value="esp" {{ app()->getLocale() == 'esp' ? 'selected' : '' }}>Espagnol</option>
                 </select>
                 </div>
             </form>

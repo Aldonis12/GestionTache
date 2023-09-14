@@ -1,0 +1,42 @@
+{
+    "add.choose": "Elegir...",
+    "Statut.A faire": "Por hacer",
+    "Statut.En cours": "En curso",
+    "Statut.Termines": "Terminado",
+
+    "Priority.Haute": "Alto",
+    "Priority.Moyenne": "Promedio",
+    "Priority.Faible": "Débil",
+
+    "Setting.settings": "Configuración",
+    "Setting.modif": "modificar el perfil",
+    "Setting.name": "apellido",
+    "Setting.mail": "Correo electrónico",
+    "Setting.edit": "Editar",
+
+    "Setting.modifpass": "cambiar la contraseña",
+    "Setting.lastpass": "Contraseña actual",
+    "Setting.newpass": "Nueva contraseña",
+    "Setting.confpass": "confirmación",
+    "Setting.butpass": "cambiar la contraseña",
+
+    "Setting.language": "Elige lengua",
+
+    "login.create":"Cree su cuenta",
+    "login.name": "apellido",
+    "login.email": "Correo electrónico",
+    "login.mdp": "contraseña",
+    "login.confmdp": "confirmar la contraseña",
+    "login.validate": "Valider",
+    "login.errorReg": "¡ERROR DE REGISTRO!",
+    "login.succesReg": "¡Agregue correctamente!",
+    "login.log": "¡Acceso!",
+    "login.seco": "Conectarse",
+    "login.error": "Correo electrónico o contraseña no válidos.",
+    "login.return": "¡Volver!",
+    "login.text": "Regístrate para gestionar mejor tus tareas.",
+    "login.welcome": "¡Bienvenida!",
+    "login.othertext": "Inicia sesión y comienza a escribir tus tareas.",
+    "login.register": "Inscribirse",
+    "login.existemail": "Ya existe Este correo electrónico"
+}

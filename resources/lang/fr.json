@@ -24,6 +24,7 @@
 
     "login.create":"créez votre compte",
     "login.name": "Nom",
+    "login.email": "Email",
     "login.mdp": "Mot de passe",
     "login.confmdp": "Confirmer le mot de passe",
     "login.validate": "Valider",

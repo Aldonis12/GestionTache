@@ -58,8 +58,6 @@ class ListController extends Controller
         $var = "tache";
         $titre = "tasklisttoday";
         $tittle = "todaylist";
-        /*$sql = $taches->toSql();
-        echo($sql);*/
         return view('liste',compact('taches','var','user','titre','tittle'));
     }
 

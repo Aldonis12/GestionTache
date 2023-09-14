@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 
+use Illuminate\Support\Facades\Mail;
+use App\Mail\WelcomeMail;
+
 class AuthentificationController extends Controller
 {
     public function Login(Request $request)
@@ -72,5 +75,13 @@ class AuthentificationController extends Controller
         $language = $request->input('language');
         session(['locale' => $language]);
         return back();
+    }
+
+    public function sendEmail($subject, $message, $receiver, $receiver_name)
+    {
+        $name = "Mick";
+        $email = "micklewis.aldonis@gmail.com";
+        Mail::to($receiver)->send(new WelcomeMail($name, $email, $subject, $message,$receiver_name));
+        echo "Lasa bro";
     }
 }

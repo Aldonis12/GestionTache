@@ -19,7 +19,7 @@ class AddController extends Controller
         $priorities = Priority::all();
         $url = "ConfirmeAjoutTache";
         $titre = "addtask";
-        return view('ajout',compact('url','titre','priorities','user')); 
+        return view('ajout',compact('url','titre','priorities','user'));
     }
 
     public function AjoutTache(Request $request)
